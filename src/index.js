@@ -41,7 +41,7 @@ function renderCountryList(countries) {
       return `<li>
       <img src="${country.flags.svg}" alt="Flag of ${
         country.name.official
-      }" width="30" hight="20">
+      }" width="100" hight="50">
          <b>${country.name.official}</p>
                 </li>`;
     })
